@@ -2,10 +2,11 @@ import Coffee from './coffee';
 
 function App() {
 
+    const username = 'Chandan Kumar'
   return (
     <>
       <Coffee />
-      <h1>Welcome to the Coffee Shop</h1>
+      <h1>Welcome to the Coffee Shop {username}!</h1>
       <p>Enjoy your favorite coffee brewed fresh!</p>
       <p>Visit us for a delightful experience.</p>
       <p>We are open every day from 8 AM to 8 PM.</p>
